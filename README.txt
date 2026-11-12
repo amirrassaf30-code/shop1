@@ -35,3 +35,36 @@ data/shop.json    اطلاعات فروشگاه (محصولات، تنظیمات
 - تخفیف: قیمت قبل از تخفیف را وارد کنید تا برچسب درصد تخفیف نمایش داده شود.
 - دکمه شناور واتساپ و بخش نظرات مشتریان را متناسب با فروشگاه خود ویرایش کنید.
 - نظرات نمونه در index.html را با نظرات واقعی مشتریان جایگزین کنید.
+نمونه کد data:
+{
+  "settings": {
+    "shop": "فروشگاه موبایل",
+    "phone": "989101891499",
+    "intro": "بهترین گوشی‌ها و لوازم جانبی اصل، با ضمانت اصالت کالا و ارسال سریع",
+    "adminHash": "4f9f10b304cfe9b2b11fcb1387f694e18f08ea358c7e9f567434d3ad6cbd7fc4"
+  },
+  "products": [
+    {
+      "id": "pmwdnoljc",
+      "name": "iphone 18 max",
+      "brand": "iphone",
+      "cat": "phone",
+      "price": 1000000000,
+      "oldPrice": 1000000000,
+      "stock": 1,
+      "img": "https://api2.zoomit.ir/media/apple-iphone-18-pro-max-burgundy-6aa1c0fa420fe43083954f70?w=1920&q=75",
+      "desc": "موبایل 18 پرومکس با تخفیف فالو"
+    },
+    {
+      "id": "pmwdofp9m",
+      "name": "شارژر ایفون اصل",
+      "brand": "",
+      "cat": "charger",
+      "price": 2000000,
+      "oldPrice": 2200000,
+      "stock": 10,
+      "img": "https://dkstatics-public.digikala.com/digikala-products/b1466d39ad67b088ccb59bdaa742035afcb49ff5_1753889586.jpg?x-oss-process=image/resize,m_lfit,h_800,w_800/quality,q_90",
+      "desc": "شارژر اصل است تضمینی بدون گارانتی"
+    }
+  ]
+}
