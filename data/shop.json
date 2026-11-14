@@ -6,3 +6,15 @@
     "adminHash": "4f9f10b304cfe9b2b11fcb1387f694e18f08ea358c7e9f567434d3ad6cbd7fc4"
   }
 }
+"products": [
+    {
+      "id": "pmwdnoljc",
+      "name": "1111111111",
+      "brand": "iphone",
+      "cat": "phone",
+      "price": 559000,
+      "oldPrice": 559000,
+      "stock": 1,
+      "img": "",
+      "desc": "لباس تیشرت"
+    }
